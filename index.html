@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House one</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-xl bg-transparent fixed-top">
+            <a class="navbar-brand logo d-flex align-items-center gap-2" href="./index.html">
+                <img src="./assets/img/未命名設計.png" alt="">
+                <h2 class="text-logo">House One 科大社一 </h2>
+            </a>
+            <button class="navbar-toggler bg-transparent text-black px-3 py-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="30px" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </button>
+            <div class="search text-white">
+                <svg class=" vu8Pwe tCHXDc YSH9J" viewBox="0 0 24 24" focusable="false" fill="#fff" width="24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </div>
+            <div class="offcanvas offcanvas-start" id="navbarOffcanvas" tabindex="-1"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            width="32" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+
+                    </button>
+
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav mb-2 mb-lg-0 gap-4 text-uppercase align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./index.html" target="_self" title="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html" target="_self" title="">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./past-exco.html" target="_self" title="">Past Exco</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./cons.html" target="_self" title="">Cons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sponsor.html" target="_self" title="">Sponsor</a>
+                            </li>
+                            <li class="nav-item">
+
+                                <div class="search text-white">
+                                    <svg class=" vu8Pwe tCHXDc YSH9J" viewBox="0 0 24 24" focusable="false" fill="#fff"
+                                        width="24">
+                                        <path
+                                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                        </path>
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                    </svg>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar">
+            <div class="back-btn">
+                <svg class="V4YR2c" viewBox="0 0 24 24" focusable="false" width="30">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                </svg>
+            </div>
+            <div class="row justify-content-center w-100">
+                <div class="col-md-5">
+                    <div class="search">
+                        <button>
+                            <svg class="vu8Pwe" viewBox="0 0 24 24" focusable="false" width="30">
+                                <path
+                                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                </path>
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="Search this site">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+
+
+        </header>
+        <section class="yaqOZd">
+            <div>
+                <h2>HOUSE FOR UNITY &nbsp; ONE IS THE BEST</h2>
+            </div>
+        </section>
+        <section class="sports-team-section">
+            <div class="container ">
+                <div class="section-title ">
+                    <div class="icon-wrapper  position-relative">
+                        <h2>Sports Team</h2>
+                        <span>
+                            <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="currentColor"
+                                focusable="false">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                </path>
+                            </svg>
+                        </span>
+                        <div class="copyTooltip">
+                            <button>
+                                Copy heading link
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="sports-team-box">
+                            <div class="sports-team-text icon-wrapper">
+                                <h2>
+                                    女籃
+                                </h2>
+                                <span>
+                                    <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                        fill="currentColor" focusable="false">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div class="copyTooltip">
+                                    <button>
+                                        Copy heading link
+                                    </button>
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/team-1.JPG" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sports-team-box">
+                            <div class="sports-team-text icon-wrapper">
+                                <h2>
+                                    足球
+
+                                </h2>
+                                <span>
+                                    <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                        fill="currentColor" focusable="false">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div class="copyTooltip">
+                                    <button>
+                                        Copy heading link
+                                    </button>
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/team-2.JPG" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sports-team-box">
+                            <div class="sports-team-text icon-wrapper">
+                                <h2>
+                                    男籃
+
+                                </h2>
+                                <span>
+                                    <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                        fill="currentColor" focusable="false">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div class="copyTooltip">
+                                    <button>
+                                        Copy heading link
+                                    </button>
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/team-3.jpg" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sports-team-box">
+                            <div class="sports-team-text icon-wrapper">
+                                <h2>
+                                    羽毛球
+
+
+                                </h2>
+                                <span>
+                                    <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                        fill="currentColor" focusable="false">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div class="copyTooltip">
+                                    <button>
+                                        Copy heading link
+                                    </button>
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/team-4.JPG" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sports-team-box">
+                            <div class="sports-team-text icon-wrapper">
+                                <h2>
+                                    排球
+                                </h2>
+                                <span>
+                                    <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                        fill="currentColor" focusable="false">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div class="copyTooltip">
+                                    <button>
+                                        Copy heading link
+                                    </button>
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/team-5.JPG" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sports-team-box">
+                            <div class="sports-team-text icon-wrapper">
+                                <h2>
+                                    乒乓波
+                                </h2>
+                                <span>
+                                    <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                        fill="currentColor" focusable="false">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <div class="copyTooltip">
+                                    <button>
+                                        Copy heading link
+                                    </button>
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/texam-6.JPG" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="camp-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <figure>
+                            <img src="./assets/img/camp.JPG" alt="">
+                        </figure>
+                        <h4>House One O'camp</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="executive-committee-section">
+            <div class="container">
+                <div class="section-title">
+                    <div class="icon-wrapper  position-relative">
+                        <h2>House One Executive Committee</h2>
+                        <span>
+                            <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="currentColor"
+                                focusable="false">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                </path>
+                            </svg>
+                        </span>
+                        <div class="copyTooltip">
+                            <button>
+                                Copy heading link
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="executive-committee-box">
+                            <figure>
+                                <img src="./assets/img/committee-1.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Kenny</h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>Chairperson</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="executive-committee-box">
+                            <figure>
+                                <img src="./assets/img/committee-2.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Eunis</h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>Internal Vice-Chairperson</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="executive-committee-box">
+                            <figure>
+                                <img src="./assets/img/committee-3.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Jason </h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>External Vice-Chairperson</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box  w-100">
+                            <figure>
+                                <img src="./assets/img/committee-4.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Giselle </h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>General Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-5.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>MC Chicken
+                                    </h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>Financial Secretary & Promotion Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-6.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Coey</h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span> Publication Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-7.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Joseph</h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span> Sports Secretary & <br> Promotion Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-8.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Sidney
+                                    </h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span> Sports Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-9.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>SP
+                                    </h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>Welfare Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-10.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Ming Hin
+                                    </h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span> Hall Affairs Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="executive-committee-box w-100">
+                            <figure>
+                                <img src="./assets/img/committee-11.JPG" alt="">
+                            </figure>
+                            <div class="executive-committee-text ">
+                                <div class=" mb-1 icon-wrapper">
+                                    <h2>Marco</h2>
+                                    <span>
+                                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24"
+                                            fill="currentColor" focusable="false">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <div class="copyTooltip">
+                                        <button>
+                                            Copy heading link
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>Information and Technology Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="building-club-section">
+            <div class="section-title">
+
+                <div class="icon-wrapper  position-relative">
+                    <h2>樓會介紹</h2>
+                    <span>
+                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="currentColor"
+                            focusable="false">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="copyTooltip">
+                        <button>
+                            Copy heading link
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/1.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            1/F
+                        </h3>
+                    </div>
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/2.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            2/F
+                        </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/3.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            3/F
+                        </h3>
+                    </div>
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/4.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            4/F
+                        </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/5.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            5/F
+                        </h3>
+                    </div>
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/6.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            6/F
+                        </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-md-2">
+                        <figure>
+                            <img src="./assets/img/7.png" alt="" class="w-100">
+                        </figure>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>
+                            7&8/F
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="join-family">
+            <div class="section-title">
+                <div class="icon-wrapper">
+                    <h2 class="">加入 House One 大家庭！</h2>
+                    <span>
+                        <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="currentColor"
+                            focusable="false">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                            </path>
+                        </svg>
+                    </span>
+                    <div class="copyTooltip">
+                        <button>
+                            Copy heading link
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container">
+                <div class="row contact-social-row">
+                    <div class="col-md-3 position-relative">
+                        <div class="contact-social">
+                            <span>Facebook</span>
+
+                        </div>
+                        <div class="tooltipBtn">
+                            Facebook
+                        </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                        <div class="contact-social">
+                            <span>Youtube</span>
+                        </div>
+                        <div class="tooltipBtn">
+                            Youtube
+                        </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                        <div class="contact-social">
+                            <span>Instagram</span>
+                        </div>
+                        <div class="tooltipBtn">
+                            Instagram
+                        </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                        <div class="contact-social">
+                            <span>House one & me</span>
+                        </div>
+                        <div class="tooltipBtn">
+                            House one & me
+                        </div>
+                    </div>
+                </div>
+                <div class="row YMEQtf-row">
+                    <div class="col-md-6">
+                        <iframe jsname="L5Fo6c" class="YMEQtf"
+                            sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals allow-storage-access-by-user-activation"
+                            frameborder="0" aria-label="Map, Untitled Location"
+                            src="https://maps-api-ssl.google.com/maps?hl=en-GB&amp;ll=22.337895,114.265521&amp;output=embed&amp;q=22.337914,114.265532+(Untitled+Location)&amp;z=22"
+                            allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe src="https://www.youtube.com/embed/31_VFgp72lQ" class="YMEQtf"
+                            title="House One Orientation Camp 2023 Review (O&#39;Camp 2023)" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>The UG House One SA, HKUSTSU</p>
+                        <p>Est. 1993</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            // Select the navbar element
+            const navbar = document.querySelector('.navbar');
+
+            // Add or remove the 'scrolled' class based on the scroll position
+            if (window.scrollY > 0) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        let search = document.querySelector('.search');
+        let searchBar = document.querySelector('.search-bar')
+        let backBtn = document.querySelector('.back-btn')
+        search.addEventListener('click', (() => {
+            searchBar.classList.add('open-bar')
+        }))
+        backBtn.addEventListener('click', (() => {
+            searchBar.classList.remove('open-bar')
+        }))
+    </script>
+</body>
+
+</html>

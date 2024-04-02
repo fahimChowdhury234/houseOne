@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House one</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="pastExco-main">
+        <nav class="navbar navbar-expand-xl bg-transparent fixed-top">
+            <a class="navbar-brand logo d-flex align-items-center gap-2" href="./index.html">
+                <img src="./assets/img/未命名設計.png" alt="">
+                <h2 class="text-logo">House One 科大社一 </h2>
+            </a>
+            <button class="navbar-toggler bg-transparent text-black px-3 py-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="30px" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </button>
+            <div class="search text-white">
+                <svg class=" vu8Pwe tCHXDc YSH9J" viewBox="0 0 24 24" focusable="false" fill="#fff" width="24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </div>
+            <div class="offcanvas offcanvas-start" id="navbarOffcanvas" tabindex="-1"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            width="32" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav mb-2 mb-lg-0 gap-4 text-uppercase align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link " href="./index.html" target="_self" title="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./about.html" target="_self" title="">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./past-exco.html" target="_self" title="">Past Exco</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./cons.html" target="_self" title="">Cons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./sponsor.html" target="_self" title="">Sponsor</a>
+                            </li>
+                            <li class="nav-item">
+
+                                <div class="search text-white">
+                                    <svg class=" vu8Pwe tCHXDc YSH9J" viewBox="0 0 24 24" focusable="false" fill="#fff"
+                                        width="24">
+                                        <path
+                                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                        </path>
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                    </svg>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar">
+            <div class="back-btn">
+                <svg class="V4YR2c" viewBox="0 0 24 24" focusable="false" width="30">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                </svg>
+            </div>
+            <div class="row justify-content-center w-100">
+                <div class="col-md-5">
+                    <div class="search">
+                        <button>
+                            <svg class="vu8Pwe" viewBox="0 0 24 24" focusable="false" width="30">
+                                <path
+                                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                </path>
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="Search this site">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="pastExco-header">
+            <h1>Past Exco</h1>
+
+        </header>
+        <section class="lQAHbd-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="lQAHbd-content">
+                            <div class=" mb-1 icon-wrapper">
+                                <h2>SINGULARITÉ</h2>
+                                <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="#fff"
+                                    fill="currentColor" focusable="false">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul>
+                                <li>
+                                    Chairperson: Chan Samuel Hei Ching
+                                </li>
+                                <li>
+                                    Internal-Vice Chairperson: Cheung Tsz Chun Lawrence
+                                </li>
+                                <li>
+                                    External-Vice Chairperson: Chan Nam San
+                                </li>
+                                <li>
+                                    General Secretary & Publication Secretary: Cheung Tsz Ching
+                                </li>
+                                <li>
+                                    Financial Secretary: Fong Chin Pang Jack
+                                </li>
+                                <li>
+                                    Sports Secretary: Lau Siu Heung, Li Cheuk Hei
+                                </li>
+                                <li>
+                                    Welfare Secretary: Hui Yat Fung
+                                </li>
+                                <li>
+                                    Marketing Secretary: Chow Yee Kiu
+                                </li>
+                                <li>
+                                    Promotion Secretary: Chan Lai Lam, Diu Nga Ching
+                                </li>
+                                <li>
+                                    Hall Affairs Secretary: Wong Jing Ji Willis
+                                </li>
+                                <li>
+                                    Information &Technology Secretary: Law Sze Ki Katy
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 lQAHbd-img">
+                        <figure>
+                            <img src="./assets/img/pt-1.png" alt="">
+                        </figure>
+                        <span>Session 30</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="lQAHbdWh-section">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-7 lQAHbdWh-img">
+                        <figure>
+                            <img src="./assets/img/pt-1.png" alt="">
+                        </figure>
+                        <span>Session 29</span>
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="lQAHbdWh-content">
+                            <div class=" mb-1 icon-wrapper">
+                                <h2>Unissait</h2>
+                                <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="#111"
+                                    fill="currentColor" focusable="false">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul>
+                                <li>
+                                    Chairperson: Ng Yin Lok
+
+                                </li>
+                                <li>
+                                    Internal-Vice Chairperson: Lam Man Ho Jeffrey
+
+                                </li>
+                                <li>
+                                    External-Vice Chairperson: Kwan Hei Shun
+
+                                </li>
+                                <li>
+                                    General Secretary: Wong Yuk Ching
+
+                                </li>
+                                <li>
+                                    Financial Secretary: Fong Ching Yi
+
+                                </li>
+                                <li>
+                                    Publication Secretary: Wong Ka Miu
+
+
+                                </li>
+                                <li>
+                                    Sports Secretary: Cho Chi Hin, So Hei Ching
+
+                                </li>
+                                <li>
+                                    Welfare Secretary: Tsoi Tin Wai Naomi
+
+                                </li>
+                                <li>
+                                    Marketing Secretary: Pang Chun Hei
+
+                                </li>
+                                <li>
+                                    Promotion Secretary: Cheung Lok To, Wong Lai Wan
+
+                                </li>
+                                <li>
+                                    Hall Affairs Secretary: Mok Kwan Kit
+
+                                </li>
+                                <li>
+                                    Information &Technology Secretary: Ng Man Yau
+
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="lQAHbd-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="lQAHbd-content">
+                            <div class=" mb-1 icon-wrapper">
+                                <h2>ONEIRO</h2>
+                                <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="#fff"
+                                    fill="currentColor" focusable="false">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul>
+                                <li>
+                                    Chairperson: Chan Ki Yan
+                                </li>
+                                <li>
+                                    Sports Secretary: Chan Ting Yu
+                                </li>
+                                <li>
+                                    Welfare Secretary: Fung Wing Nam
+                                </li>
+                                <li>
+                                    Hall Affairs Secretary: Cheng Fong Yi
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 lQAHbd-img">
+                        <figure>
+                            <img src="./assets/img/pt-3.JPG" alt="">
+                        </figure>
+                        <span>Session 28</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="lQAHbdWh-section">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-7 lQAHbdWh-img">
+                        <figure>
+                            <img src="./assets/img/pt-4.jpg" alt="">
+                        </figure>
+                        <span>Session 28</span>
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="lQAHbdWh-content">
+                            <div class=" mb-1 icon-wrapper">
+                                <h2>SOLITAIRE</h2>
+                                <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="#111"
+                                    fill="currentColor" focusable="false">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul>
+                                <li>
+                                    Chairperson: Tsang Chun Ming
+                                </li>
+                                <li>
+                                    Internal-Vice Chairperson: Chiu wing Chi Amanda
+                                </li>
+                                <li>
+                                    External-Vice Chairperson: Wong Hei Wing
+                                </li>
+                                <li>
+                                    General Secretary: Kwan Yi Ting
+                                </li>
+                                <li>
+                                    Financial Secretary: Lai Tsz Hin
+
+                                </li>
+                                <li>
+                                    Publication Secretary: Cheung Ching Tung
+                                </li>
+                                <li>
+                                    Sports Secretary: Cheng Ho Hin, Wong Yuk Hei
+                                </li>
+                                <li>
+                                    Welfare Secretary: Ho Ching Yin, So Lai Wa
+                                </li>
+                                <li>
+                                    Marketing Secretary: Kong Chun Yin, Tong Tsz Ying
+                                </li>
+                                <li>
+                                    Promotion Secretary: Tong Hau Yung
+                                </li>
+                                <li>
+                                    Hall Affairs Secretary: Wong Ka Chun
+                                </li>
+                                <li>
+                                    Information &Technology Secretary: Wong Tsit Yue
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="lQAHbd-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="lQAHbd-content">
+                            <div class=" mb-1 icon-wrapper">
+                                <h2>Primaevus</h2>
+                                <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="#fff"
+                                    fill="currentColor" focusable="false">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul>
+                                <li>
+                                    Chairperson: Wong Ka Hei
+                                </li>
+                                <li>
+                                    External-Vice Chairperson: Liu Ka Chun
+
+                                </li>
+                                <li>
+                                    General Secretary: Leung Siu Ting, Yip Man Hoi
+
+                                </li>
+                                <li>
+                                    Financial Secretary: Wong Tak Yuen
+
+                                </li>
+
+                                <li>
+                                    Publication Secretary: Lau Ho Ching Elly
+
+                                </li>
+
+
+                                <li>
+                                    Sports Secretary: Chan Cheuk Fung, Xue Helen Do Gai
+
+                                </li>
+                                <li>
+                                    Welfare Secretary: Wong Wing Hei
+
+                                </li>
+                                <li>
+                                    Marketing Secretary: Yeung Chin Hang, Yuen Tsz Shan
+
+                                </li>
+
+                                <li>
+                                    Promotion Secretary: Wong Wing
+
+                                </li>
+                                <li>
+                                    Hall Affairs Secretary: Lee Ming Hin
+
+                                </li>
+
+                                <li>
+                                    Information &Technology Secretary: Lam Hong Yin
+
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 lQAHbd-img">
+                        <figure>
+                            <img src="./assets/img/pt-6.jpeg" alt="">
+                        </figure>
+                        <span>Session 27</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="lQAHbdWh-section">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-7 lQAHbdWh-img">
+                        <figure>
+                            <img src="./assets/img/pt-4.jpg" alt="">
+                        </figure>
+                        <span>Session 25</span>
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="lQAHbdWh-content">
+                            <div class=" mb-1 icon-wrapper">
+                                <h2>ALIQUIS</h2>
+                                <svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="#111"
+                                    fill="currentColor" focusable="false">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul>
+                                <li>
+                                    Chairperson: Chan Hoi Man
+
+                                </li>
+                                <li>
+                                    Internal-Vice Chairperson: Jim Ho Yin
+
+                                </li>
+                                <li>
+                                    External-Vice Chairperson: Chu Ka Chun
+
+                                </li>
+                                <li>
+                                    General Secretary: Poon Ho Ying
+
+                                </li>
+                                <li>
+                                    Sports Secretary: Chong Ka Hei
+                                </li>
+                                <li>
+                                    Welfare Secretary: Cheung Tsz Lok
+                                </li>
+                                <li>
+                                    Marketing Secretary: Lee Hoi Yat
+                                </li>
+                                <li>
+                                    Promotion Secretary: Chang Hin Kei
+                                </li>
+                                <li>
+                                    Hall Affairs Secretary: Lui Chi Ip
+                                </li>
+                                <li>
+                                    Information &Technology Secretary: Yuen Chi Fung
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>The UG House One SA, HKUSTSU</p>
+                        <p>Est. 1993</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            // Select the navbar element
+            const navbar = document.querySelector('.navbar');
+
+            // Add or remove the 'scrolled' class based on the scroll position
+            if (window.scrollY > 0) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        let search = document.querySelector('.search');
+        let searchBar = document.querySelector('.search-bar')
+        let backBtn = document.querySelector('.back-btn')
+        search.addEventListener('click', (() => {
+            searchBar.classList.add('open-bar')
+        }))
+        backBtn.addEventListener('click', (() => {
+            searchBar.classList.remove('open-bar')
+        }))
+    </script>
+</body>
+
+</html>
