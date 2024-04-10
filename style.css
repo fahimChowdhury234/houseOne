@@ -352,6 +352,7 @@ header {
     position: relative;
     z-index: 99;
     cursor: pointer;
+    display: block;
 }
 
 .contact-social-row {
